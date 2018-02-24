@@ -1,0 +1,26 @@
+$(function(){
+    $(".edit").click(function(){
+        $(this).hide();
+        $(this).next().next().show();
+        $(this).next().show();
+        $(".from_boxa").show();
+    });
+    $(".canc").click(function(){
+        $(this).hide();
+        $(this).prev().hide();
+        $(this).prev().prev().show();
+        $(".from_boxa").hide();
+    });
+    $(".appro").click(function(){
+        $(".appor_box").show();  
+    });
+    $(".appor_title img").click(function(){
+        $(".appor_box").hide();
+    });
+    $(".can_appor").click(function(){
+        $(".appor_box").hide();
+    });
+    $(".sure_appor").click(function(){
+        $(".appor_box").hide();
+    });
+});

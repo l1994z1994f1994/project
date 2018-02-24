@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>选择公司</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="../commons/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="company-change.css">
+    <script type="text/javascript" src="../commons/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="company-change.js"></script>
+</head>
+<body>
+    <header>
+        <div class="top_nav clearfix">
+            <img src="image/icon.png" class="icon_img">
+            <span class="title">基金管理项目</span>
+            <span class="reg_acco">注册基金管理账号</span>
+            <a href="#" class="login_btn">直接登录>></a>
+            <span class="registed">已有账号，</span>
+        </div>
+        <div class="top_bg"></div>
+    </header>
+    <div class="main">
+         <p class="comp_chan">请选择公司</p>
+         <div>
+            <ul>
+                <li><a href="#" class="company_name">北京快客互动科技有限公司</a></li>
+                <li><a href="#" class="company_name">北京快客互动科技有限公司</a></li>
+                <li><a href="#" class="company_name">北京快客互动科技有限公司</a></li>
+                <li><a href="#" class="company_name">北京快客互动科技有限公司</a></li>
+                <li><a href="#" class="company_name">北京快客互动科技有限公司</a></li>
+                <li><a href="#" class="company_name">北京快客互动科技有限公司</a></li>
+            </ul>
+        </div>
+        <div class="login_box">
+            <a href="#" class="login">登录</a>
+        </div>
+    </div>
+    <footer>
+        <div class="foot_nav">
+            <span class="rdkj">北京荣大科技有限公司 版权所有</span>
+            <span>京 ICP 备14050409号 -1</span>
+        </div> 
+    </footer>
+    <!-- 提示弹框 -->
+    <div class="del_box" style="display: block;">
+        <div class="del_con">
+            <div class="del_title clearfix">
+                <img src="../commons/image/hint.png" class="hint_img">
+                <span class="del_risk">提示</span>
+                <img src="../commons/image/close.png" class="close_img">
+            </div>
+            <div class="del_cont">
+                <p>您还不是该公司员工!</p>
+                <button class="sure_btn">确定</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    function bottomNav(){
+        $('footer').css("position","static");
+        var wh = $(window).height();
+        var fh = $("footer").height();
+        var th = $("footer").offset().top;
+        if(th < wh-fh){
+            $('footer').css({
+                "position":"fixed",
+            });
+        }else{
+            $('footer').css("position","static");
+        };
+    };
+    bottomNav();
+    window.onresize = function(){
+        bottomNav();
+    }
+</script>
+</html>

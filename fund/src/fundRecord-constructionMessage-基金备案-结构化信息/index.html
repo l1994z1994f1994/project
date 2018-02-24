@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>基金备案-结构化信息</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="../commons/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../commons/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../commons/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="../commons/css/bootstrap-table/bootstrap-table.css">
+    <link rel="stylesheet" type="text/css" href="../commons/css/commons.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script type="text/javascript" src="../commons/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="../commons/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../commons/js/bootstrap-table/bootstrap-table.js"></script>
+    <script type="text/javascript" src="../commons/js/commons.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+     <div class="main">
+     	<!-- 头部 -->
+     	<header class="container-fluid">
+     		<div class="row top_box">
+     			<div class="col-lg-2 col-md-2 col-sm-2 company_logo">
+	     	 	 	<img src="../commons/image/title1.png">
+	     	 	 	<!-- <span class="company_name">荣大云协作</span> -->
+	     	 	</div>
+	     	 	<div class="col-lg-10 col-md-10 col-sm-10 top_nav clearfix">
+	     	 	 	<ul class="clearfix">
+	     	 	 		<li class="email_num">
+	     	 	 			<img src="../commons/image/xiaoxi.png">
+	     	 	 			<div class="red_num">6</div>
+	     	 	 		</li>
+	     	 	 		<li class="user_box">
+	     	 	 			<div class="user_img"></div>
+	     	 	 			<span class="user_name">名字的</span>
+	     	 	 			<img src="../commons/image/xiala1.png" class="down_img">
+	     	 	 			<img src="../commons/image/sanjiao01.png" class="san_img">
+	     	 	 			<ul class="top_mes">
+	     	 	 				<li class="user_nav">账号信息</li>
+	     	 	 				<li class="user_nav">个人基本信息</li>
+	     	 	 				<li class="user_nav">修改密码</li>
+	     	 	 				<li class="user_nav user_invite">邀请用户</li>
+	     	 	 				<li class="user_nav nav_last">安全退出</li>
+	     	 	 			</ul>
+	     	 	 		</li>
+	     	 	 	</ul>
+	     	 	</div>
+     		</div>
+     	</header>
+     	<!-- 主题内容 -->
+     	<div class="context row">
+     		<!-- 左侧列表 -->
+     	 	<div class="col-lg-2 col-md-2 col-sm-2 list_box">
+     	 		<div class="left_cont">
+     	 			<ul class="left_ul">
+	     	 			<li class="left_li clearfix">
+	     	 				<img src="../commons/image/0.png" class="work_img">
+	     	 				<a href="#" class="fund">主工作台</a>
+	     	 			</li>
+	     	 			<li class="left_li clearfix">
+	     	 				<img src="../commons/image/1.png" alt="" class="work_img">
+	     	 				<a href="#" class="fund">基金管理</a>
+	     	 				<img src="../commons/image/gengduo.png" alt="" class="show_list" onclick="showList(this)">
+	     	 			</li>
+	     	 			<ul class="classify">
+     	 					<li class="fund_cla">基金立项</li>
+     	 					<li class="fund_cla">基金库管理</li>
+     	 					<li class="fund_cla">基金文件库</li>
+     	 				</ul>
+	     	 			<li class="left_li clearfix">
+	     	 				<img src="../commons/image/2.png" alt="" class="work_img">
+	     	 				<a href="#" class="fund">投资人管理</a>
+	     	 				<img src="../commons/image/gengduo.png" alt="" class="show_list" onclick="showList(this)">
+	     	 			</li>
+	     	 			<ul class="classify">
+     	 					<li class="fund_cla">投资者信息</li>
+     	 					<li class="fund_cla">投资者协议管理</li>
+     	 					<li class="fund_cla">投资者出资管理</li>
+     	 				</ul>
+     	 				<li class="left_li clearfix">
+	     	 				<img src="../commons/image/3.png" alt="" class="work_img">
+	     	 				<a href="#" class="fund">合同管理</a>
+	     	 				<img src="../commons/image/gengduo.png" alt="" class="show_list" onclick="showList(this)">
+	     	 			</li>
+	     	 			<ul class="classify">
+     	 					<li class="fund_cla">合同信息</li>
+     	 					<li class="fund_cla">合同领用</li>
+     	 					<li class="fund_cla">归档合同</li>
+     	 				</ul>
+     	 				<li class="left_li clearfix">
+	     	 				<img src="../commons/image/4.png" alt="" class="work_img">
+	     	 				<a href="#" class="fund">机构信息</a>
+	     	 			</li>
+	     	 			<li class="left_li clearfix">
+	     	 				<img src="../commons/image/5.png" alt="" class="work_img">
+	     	 				<a href="#" class="fund">内控管理</a>
+	     	 				<img src="../commons/image/gengduo.png" alt="" class="show_list" onclick="showList(this)">
+	     	 			</li>
+	     	 			<ul class="classify">
+     	 					<li class="fund_cla">内控制度</li>
+     	 					<li class="fund_cla">合规报告</li>
+     	 					<li class="fund_cla">自查报告</li>
+     	 				</ul>
+     	 				<li class="left_li clearfix">
+	     	 				<img src="../commons/image/6.png" alt="" class="work_img">
+	     	 				<a href="#" class="fund">合规管理</a>
+	     	 				<img src="../commons/image/gengduo.png" alt="" class="show_list" onclick="showList(this)">
+	     	 			</li>
+	     	 			<ul class="classify">
+     	 					<li class="fund_cla">合规日历</li>
+     	 					<li class="fund_cla">合规设置</li>
+     	 				</ul>
+	     	 			<li class="left_li clearfix">
+	     	 				<img src="../commons/image/7.png" alt="" class="work_img">
+	     	 				<a href="#" class="fund">综合管理</a>
+	     	 				<img src="../commons/image/gengduo.png" alt="" class="show_list" onclick="showList(this)">
+	     	 			</li>
+	     	 			<ul class="classify">
+     	 					<li class="fund_cla">标准文档</li>
+     	 					<li class="fund_cla">信披管理</li>
+     	 					<li class="fund_cla">协会报表</li>
+     	 				</ul>
+     	 				<li class="left_li clearfix">
+	     	 				<img src="../commons/image/8.png" alt="" class="work_img">
+	     	 				<a href="#" class="fund">审批管理</a>
+	     	 				<img src="../commons/image/gengduo.png" alt="" class="show_list" onclick="showList(this)">
+	     	 			</li>
+	     	 			<ul class="classify">
+     	 					<li class="fund_cla">工作审批</li>
+     	 				</ul>
+	     	 			<li class="left_li clearfix">
+	     	 				<img src="../commons/image/9.png" alt="" class="work_img">
+	     	 				<a href="#" class="fund">组织架构</a>
+	     	 				<img src="../commons/image/gengduo.png" alt="" class="show_list" onclick="showList(this)">
+	     	 			</li>
+	     	 			<ul class="classify">
+     	 					<li class="fund_cla">部门管理</li>
+     	 					<li class="fund_cla">人员管理</li>
+     	 				</ul>
+	     	 			<li class="left_li clearfix">
+	     	 				<img src="../commons/image/10.png" alt="" class="work_img">
+	     	 				<a href="#" class="fund">个人中心</a>
+	     	 				<img src="../commons/image/gengduo.png" alt="" class="show_list" onclick="showList(this)">
+	     	 			</li>
+	     	 			<ul class="classify">
+     	 					<li class="fund_cla">个人信息</li>
+     	 					<li class="fund_cla">我的任务</li>
+     	 				</ul>
+	     	 			<li class="left_li clearfix">
+	     	 				<img src="../commons/image/11.png" alt="" class="work_img">
+	     	 				<a href="#" class="fund">系统设置</a>
+	     	 				<img src="../commons/image/gengduo.png" alt="" class="show_list" onclick="showList(this)">
+	     	 			</li>
+	     	 			<ul class="classify">
+     	 					<li class="fund_cla">系统日志</li>
+     	 				</ul>
+	     	 			<li class="left_li clearfix">
+	     	 				<img src="../commons/image/12.png" alt="" class="work_img">
+	     	 				<a href="#" class="fund">权限管理</a>
+	     	 				<img src="../commons/image/gengduo.png" alt="" class="show_list" onclick="showList(this)">
+	     	 			</li>
+	     	 			<ul class="classify">
+     	 					<li class="fund_cla">审批权限</li>
+     	 					<li class="fund_cla">角色权限</li>
+     	 				</ul>
+	     	 		</ul>
+     	 		</div>
+     	 	</div>
+     	 	<!-- 右侧模块 -->
+     	 	<div class="right_cont col-lg-10 col-md-10 col-sm-10 ">
+     	 		<div class="input_mes">
+     	 			<a href="#">基金管理></a><a href="#">基金库管理></a><a href="#" class="account">基金备案</a>
+     	 		</div>
+     	 		<div class="record_man">
+     	 			<input type="image" src="../commons/image/record.png" name="" class="record_title">
+     	 			<input type="image" src="../commons/image/investor.png" name="" class="record_title">
+     	 			<input type="image" src="../commons/image/operate.png" name="" class="record_title">
+     	 			<input type="image" src="../commons/image/message.png" name="" class="record_title">
+     	 			<input type="image" src="../commons/image/risk.png" name="" class="record_title">
+     	 			<input type="image" src="../commons/image/assoc.png" name="" class="record_title last_title">
+     	 		</div>
+     	 		<div class="from_cont row">
+     	 			<div class="col-md-2 col-sm-2 add_role">
+                        <ul class="role_ul">
+                            <li class="role_li"><a href="#" class="role_name regime" onclick="listFn(this)">基本信息</a></li>
+                            <li class="role_li"><a href="#" class="role_name"  onclick="listFn(this)">结构化信息/杠杆信息</a></li>
+                            <li class="role_li"><a href="#" class="role_name"  onclick="listFn(this)">募集信息</a></li>
+                            <li class="role_li"><a href="#" class="role_name"  onclick="listFn(this)">合同信息</a></li>
+                            <li class="role_li"><a href="#" class="role_name"  onclick="listFn(this)">托管及外包机构信息</a></li>
+                            <li class="role_li"><a href="#" class="role_name"  onclick="listFn(this)">经理或决策人</a></li>
+                            <li class="role_li"><a href="#" class="role_name"  onclick="listFn(this)">投资者信息</a></li>
+                            <li class="role_li"><a href="#" class="role_name"  onclick="listFn(this)">相关附件上传</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-10 col-sm-10 basic_right">
+		                <!-- 基本信息 -->
+		     	 		<div class="account_mes">
+		     	 			<div class="account_title clearfix">
+			                    <span class="title">结构化信息/杠杆信息</span>
+			                    <span class="edit">编辑</span>
+			                    <span class="appro">提交审批</span>
+			                    <span class="canc">取消</span>
+			                </div>
+		     	 			<div class="from_cont">
+		     	 				<form class="form-horizontal">
+								    <div class="form-group from_box form_boxa">
+								        <label for="user_name" class="col-md-2 col-sm-2 control-label">
+								        	<img src="image/jiegou.png" class="constru"><img src="../commons/image/wenhao.png" class="hint_lan"><em>*</em>是为结构化产品：</label>
+								        <div class="col-md-8 col-sm-8 input_box check_box">
+		                                    <input type="radio" name="yes" checked="checked" onclick="checkFn(this)"><span>是</span>
+		                                    <input type="radio" name="yes" onclick="checkFn(this)"><span>否</span>
+		                                </div>
+								    </div>
+								    <div class="form-group from_box lever_box">
+		                                <label for="user_name" class="col-md-2 col-sm-2 control-label"><img src="../commons/image/wenhao.png">杠杆比例：</label>
+		                                <div class="col-md-4 col-sm-4 input_box">
+		                                    <input type="text" class="form-control" id="user_name" placeholder="请输入杠杆比例" onfocus="focuFn(this)" onblur="blurFn(this)">
+		                                    <img src="../commons/image/reset.png" class="reset_img">
+		                                </div>
+		                            </div>
+								</form>
+		     	 			</div>
+		     	 		</div>
+		     	 		<div class="center_box"></div>
+		     	 		<!-- 备案主要联系人 -->
+		                <div class="account_mes">
+		                    <div class="account_title clearfix">
+		                        <span class="title">份额类别信息</span>
+		                        <span class="add">新增</span>
+		                    </div>
+		                    <div class="account_mes">
+			                    <div class="from_con">
+			                         <table class="table table-condensed">
+			                            <thead class="thead">
+			                                <tr>
+			                                    <th>序号</th>
+			                                    <th>份额</th>
+			                                    <th>份额类别</th>
+			                                    <th>收益安排(从低风险级别开始新增)</th>
+			                                    <th>注册日期</th>
+			                                    <th>操作</th>
+			                                </tr>
+			                            </thead>
+			                            <tbody class="table_tbody">
+			                                <tr>
+			                                    <td>1</td>
+			                                    <td>张三</td>
+			                                    <td>2017-09-09</td>
+			                                    <td>李四</td>
+			                                    <td>2017-09-09</td>
+			                                    <td><span class="delete" onclick="deleteFn(this)">删除</span></td>
+			                                </tr>
+			                            </tbody>
+			                        </table>
+			                        <div class="no_data">暂无数据</div>
+			                    </div>
+			                </div>
+		                    <div class="from_cont">
+		                        <form class="form-horizontal">
+		                            <div class="form-group from_box">
+		                                <label for="user_name" class="col-md-6 col-sm-6 control-label explain">关于结构化安排的其他说明</label>
+		                            </div>
+		                            <div class="form-group from_box">
+		                                <div class="col-md-12 col-sm-12 input_box">
+		                                    <textarea placeholder="请输入内容"></textarea>
+		                                </div>
+		                            </div>
+		                        </form>
+		                    </div>
+		                </div>
+		 	 		</div>
+     	 		</div>
+     	 	</div>
+     	</div>
+    </div>
+    <!-- 邀请用户 -->
+    <div class="invite_box">
+    	<div class="invite_con">
+    		<div class="invite_title clearfix">
+    			<span>邀请用户</span>
+    			<img src="../commons/image/close.png">
+    		</div>
+    		<div class="invite_cont">
+    			<p class="invite_phone">
+    				<input type="text" name="" placeholder="请输入手机号/邮箱">
+    			</p>
+    			<button class="dess_btn">取消</button>
+    			<button class="certt_btn">确定</button>
+    		</div>
+    	</div>
+    </div>
+    <!-- 退出弹框 -->
+    <div class="quit_box">
+    	<div class="quit_con">
+    		<div class="quit_title clearfix">
+    			<span>退出登录</span>
+    			<img src="../commons/image/close.png">
+    		</div>
+    		<div class="quit_cont">
+    			<p>确认要退出吗</p>
+    			<button class="des_btn">取消</button>
+    			<button class="cert_btn">退出</button>
+    		</div>
+    	</div>
+    </div>
+    <!-- 新增 -->
+    <div class="invernal_box">
+    	<div class="invernal_con">
+    		<div class="invernal_title clearfix">
+    			<span>更新结构化信息/杠杆信息</span>
+    			<img src="../commons/image/close.png">
+    		</div>
+    		<div class="invernal_cont">
+    			<form class="form-horizontal">
+				    <div class="form-group from_box">
+				        <label for="file_name" class="col-md-2 control-label"><img src="../commons/image/wenhao.png">份额名称:</label>
+				        <div class="col-md-4 input_box">
+				            <input type="text" class="form-control cont_box" id="file_name" placeholder="请输入份额名称" onfocus="focuFn(this)" onblur="blurFn(this)">
+				            <img src="../commons/image/reset.png" class="reset_img">
+				        </div>
+				    </div>
+				    <div class="form-group from_box">
+				        <label for="file_name" class="col-md-2 control-label"><img src="../commons/image/wenhao.png">份额类别:</label>
+				        <div class="col-md-4 input_box">
+				            <select class="form-control share" onchange="selectFn(this)">
+				            	<option value="0">请选择</option>
+				            	<option value="1">优先级(低风险)</option>
+				            	<option value="2">中间级</option>
+				            	<option value="3">劣后级(高风险)</option>
+				            	<option value="4">其他</option>
+				            </select>
+				        </div>
+				        <div class="col-md-4 input_box rest_box">
+				            <input type="text" class="form-control cont_box share" id="file_name" placeholder="请输入其他份额类别" onfocus="focuFn(this)" onblur="blurFn(this)">
+				            <img src="../commons/image/reset.png" class="reset_img">
+				        </div>
+				    </div>
+				    <div class="form-group from_box">
+				        <label for="file_name" class="col-md-2 control-label">收益安排:</label>
+				        <div class="col-md-4 input_box">
+				            <select class="form-control earning" onchange="optionFn(this)">
+				            	<option value="0">请选择</option>
+				            	<option value="1">设定基准收益</option>
+				            	<option value="2">分配比例</option>
+				            	<option value="3">剩余收益</option>
+				            	<option value="4">设定基准收益+部分浮动收益</option>
+				            	<option value="5">业绩比较基准收益</option>
+				            	<option value="6">其他</option>
+				            </select>
+				        </div>
+				        <div class="col-md-4 input_box set_box">
+				            <input type="text" class="form-control cont_box" id="file_name" placeholder="请输入设定基准收益" onfocus="focuFn(this)" onblur="blurFn(this)">
+				            <img src="../commons/image/reset.png" class="reset_img">
+				        </div>
+				    </div>
+				    <div class="form-group from_box float_box">
+				        <label for="file_name" class="col-md-2 control-label"></label>
+				        <div class="col-md-4 input_box">
+				            <input type="text" class="form-control cont_box" id="file_name" placeholder="请输入基准收益" onfocus="focuFn(this)" onblur="blurFn(this)">
+				            <img src="../commons/image/reset.png" class="reset_img">
+				        </div>
+				        <div class="col-md-4 input_box">
+				            <input type="text" class="form-control cont_box" id="file_name" placeholder="请输入浮动收益" onfocus="focuFn(this)" onblur="blurFn(this)">
+				            <img src="../commons/image/reset.png" class="reset_img">
+				        </div>
+				    </div>
+				    <div class="form-group from_box perfor_box">
+				        <label for="file_name" class="col-md-2 control-label"></label>
+				        <div class="col-md-4 input_box">
+				            <select class="form-control" onchange="optionFn(this)">
+				            	<option value="0">请选择</option>
+				            	<option value="1">指数类</option>
+				            	<option value="2">利率类</option>
+				            	<option value="3">其他</option>
+				            </select>
+				        </div>
+				        <div class="col-md-4 input_box">
+				            <input type="text" class="form-control cont_box" id="file_name" placeholder="请输入" onfocus="focuFn(this)" onblur="blurFn(this)">
+				            <img src="../commons/image/reset.png" class="reset_img">
+				        </div>
+				    </div>
+				    <div class="form-group from_box">
+				        <label for="start_name" class="col-md-2 control-label">收益安排说明:</label>
+				        <div class="col-md-8 input_box">
+				            <textarea placeholder="请输入内容"></textarea>
+				        </div>
+				    </div>
+			    </form>
+    			<button class="des_inver">取消</button>
+    			<button class="cert_inver">确定</button>
+    		</div>
+    	</div>
+    </div>
+    <!-- 提交审批 -->
+    <div class="appor_box">
+        <div class="appor_con">
+            <div class="appor_title clearfix">
+                <span>审批</span>
+                <img src="../commons/image/close.png">
+            </div>
+            <div class="appor_grade">
+                <div class="grade_box">
+                    <span>一级审批：</span><span class="grade_name">张三</span>
+                </div>
+                <div class="grade_box">
+                    <span>二级审批：</span><span class="grade_name">张三</span>
+                </div>
+                <div class="grade_box grade_hr">
+                    <span>三级审批：</span><span class="grade_name">张三</span>
+                </div>
+                <div class="grade_box">
+                    <span>通知人员：</span><span class="grade_name">选择人员</span>
+                </div>
+                <div class="grade_box grade_boxa clearfix">
+                    <span class="appor_ev">审批事由：</span><textarea class="texta" placeholder="请输入审批事由"></textarea>
+                </div>
+            </div>
+            <div class="appor_cont">
+                <button class="can_appor">取消</button>
+                <button class="sure_appor">提交</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

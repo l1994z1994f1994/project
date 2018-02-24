@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>注册</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="../commons/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="regist.css">
+    <script type="text/javascript" src="../commons/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="regist.js"></script>
+</head>
+<body>
+    <header>
+        <div class="top_nav clearfix">
+            <img src="image/icon.png" class="icon_img">
+            <span class="title">基金管理项目</span>
+            <span class="reg_acco">注册基金管理账号</span>
+            <a href="#" class="login_btn">直接登录>></a>
+            <span class="registed">已有账号，</span>
+        </div>
+        <div class="top_bg"></div>
+    </header>
+    <div class="find_pass">
+        找回密码
+    </div>
+    <!-- 进度条 -->
+    <div class="progress clearfix">
+        <div class="first_box"></div>
+        <div class=" second_box circle">1
+            <span>验证账号</span>
+        </div>
+        <div class="third_box"></div>
+        <div class="fifth_box circle">2
+            <span>密码设置</span>
+        </div>
+        <div class="sixth_box"></div>
+        <div class="eightth_box circle">3
+            <span>个人信息</span>
+        </div>
+        <div class="night_box"></div>
+        <div class="eleventh_box circle">4
+            <span>注册成功</span>
+        </div>
+        <div class="twelfth_box"></div>
+    </div>
+    <!-- 验证账号 -->
+    <div class="first">
+         <form>
+            <div class="from_group">
+                <label>手机号：</label>
+                <input type="text" name="" placeholder="请输入手机号" class="input_box" onfocus="focuFn(this)" onblur="blurFn(this)">
+                <img src="../commons/image/reset.png" class="reset_img">
+                <span class="error_box">
+                    <img src="image/error.png">
+                    <span class="error_text">手机号未输入</span>
+                </span>
+            </div>  
+            <div class="from_group">
+                <label>验证码：</label>
+                <input type="text" name="" placeholder="请输入验证码" class="input_wid" onfocus="focuFn(this)" onblur="blurFn(this)">
+                <img src="../commons/image/reset.png" class="reset_img reset_code">
+                <span class="auth_code">获取验证码信息</span>
+                <span class="error_box">
+                    <img src="image/error.png">
+                    <span class="error_text">验证码填写错误</span>
+                </span>
+            </div>
+        </form>
+        <div class="read_deal">
+            <img src="image/duihao.png" class="read_img"><span>我已阅读并同意《注册服务协议》</span>
+        </div>
+        <button class="next_btn" disabled="disabled">下一步</button>
+        <div class="read_deal email_box"><a href="#">邮箱注册</a></div>
+        <div class="success_box clearfix">
+            <img src="image/succ.png" class="succ_img">
+            <span class="auth_success">验证码发送成功！</span>
+        </div>
+    </div>
+    <!-- 密码设置 -->
+    <div class="second">
+        <form>
+            <div class="from_group">
+                <label>手机号：</label>
+                <span>12312312131</span>
+            </div>
+            <div class="from_group">
+                <label>密码：</label>
+                <input type="password" name="" placeholder="请输入密码" class="input_box" onfocus="focuFn(this)" onblur="blurFn(this)">
+                <img src="../commons/image/reset.png" class="reset_btn">
+                <img src="image/biyanjing.png" class="byj_img" onclick="changeImg(this)">
+                <span class="hint_text">6-18个数字与字母的组合</span>
+                <span class="error_box">
+                    <img src="image/error.png">
+                    <span class="error_text">密码不能为空</span>
+                </span>
+            </div>
+            <div class="from_group">
+                <label>确认密码：</label>
+                <input type="password" name="" placeholder="请确认密码" class="input_box" onfocus="focuFn(this)" onblur="blurFn(this)">
+                <img src="../commons/image/reset.png" class="reset_btn">
+                <img src="image/biyanjing.png" class="by_img" onclick="changeImg(this)">
+                <span class="error_box">
+                    <img src="image/error.png">
+                    <span class="error_text">两次密码出入不一致</span>
+                </span>
+            </div>
+        </form>
+        <button class="next_pass">下一步</button>
+    </div>
+    <!-- 个人信息 -->
+    <div class="third">
+        <form>
+            <div class="from_group">
+                <label>手机号：</label>
+                <span>12312312131</span>
+            </div>
+            <div class="from_group">
+                <label>姓名：</label>
+                <input type="text" name="" placeholder="请输入姓名" class="input_box" onfocus="focuFn(this)" onblur="blurFn(this)">
+                <img src="../commons/image/reset.png" class="reset_img">
+                <span class="error_box">
+                    <img src="image/error.png">
+                    <span class="error_text">姓名未输入</span>
+                </span>
+            </div>
+            <div class="from_group">
+                <label>身份证号码：</label>
+                <input type="password" name="" placeholder="请输入身份证号码" class="input_box" onfocus="focuFn(this)" onblur="blurFn(this)">
+                <img src="../commons/image/reset.png" class="reset_img">
+                <span class="error_box">
+                    <img src="image/error.png">
+                    <span class="error_text">身份证号未输入</span>
+                </span>
+            </div>
+            <div class="from_group">
+                <label>邮箱：</label>
+                <input type="password" name="" placeholder="请输入邮箱账号" class="input_box" onfocus="focuFn(this)" onblur="blurFn(this)">
+                <img src="../commons/image/reset.png" class="reset_img">
+                <span class="error_email">
+                    <img src="image/error.png">
+                    <span class="email_text">邮箱格式不正确</span>
+                </span>
+            </div>
+        </form>
+        <button class="next_reg">立即注册</button>
+    </div>
+    <!-- 注册成功 -->
+    <div class="fourth">
+        <div class="from_first">
+            <img src="image/success.png">
+            <span>注册成功！</span>
+        </div>
+        <div class="from_second">
+            <label>手机号：</label>
+            <span>12312312131</span>
+        </div>
+        <button class="immed_btn">立即登录</button>
+    </div>
+    <footer>
+        <div class="foot_nav">
+            <span>北京荣大科技有限公司 版权所有</span>
+            <span>京 ICP 备14050409号 -1</span>
+        </div> 
+    </footer>
+</body>
+<script type="text/javascript">
+    function bottomNav(){
+        $('footer').css("position","static");
+        var wh = $(window).height();
+        var fh = $("footer").height();
+        var th = $("footer").offset().top;
+        if(th < wh-fh){
+            $('footer').css({
+                "position":"fixed",
+            });
+        }else{
+            $('footer').css("position","static");
+        };
+    };
+    bottomNav();
+    window.onresize = function(){
+        bottomNav();
+    }
+</script>
+</html>

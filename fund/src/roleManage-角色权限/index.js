@@ -1,0 +1,117 @@
+$(function(){
+	$(".role_name").eq(0).css("color","#0089f1");
+	$("dl").find("img").attr("src","image/checkbox.png");
+	$(".edit").hide();
+    $("dl").find("img").attr("onclick","close");
+    $(".title_img").hover(function(){
+    	$(".pop_up").show();
+    },function(){
+    	$(".pop_up").hide();
+    });
+	//新增角色
+	$(".add_btn").click(function(){
+		$(".add_box").show();
+	});
+	$(".add_title img").click(function(){
+		$(".add_box").hide();
+	});
+	$(".cert_add").click(function(){
+		var text = $(".add_phone input").val().trim();
+		if(text.length > 0){
+			$(".role_ul").append('<li class="role_li"><a href="#" class="role_name add_name">'+text+'</a><img src="image/delete.png" onclick="deleteFn(this)" class="remove"></li>');
+			$(".add_box").hide();
+			$("dl").find("img").attr("src","image/checked.png").removeClass("change_img");
+			$("dl").find("span").css("color","#333");
+			$(".save_hide").show();
+			$(".cancel_hide").show();
+            $(".edit").hide();
+            $("dl").find("img").attr("onclick","checkFn(this)");
+		}else{
+			$(".add_phone input").css("border-color","#ec3b3b");
+		}
+	});
+	$(".cancel_hide").click(function(){
+		$("dl").find("img").attr("src","image/checked.png").removeClass("change_img");
+		$(".save_hide").hide();
+		$(".cancel_hide").hide();
+        $(".edit").show();
+        $(".remove").hide();
+        $("dl").find("img").attr("onclick","close");
+	});
+	$(".save_hide").click(function(){
+		$(".save_hide").hide();
+		$(".cancel_hide").hide();
+        $(".edit").show();
+        $(".remove").hide();
+        $("dl").find("img").attr("onclick","close");
+	});
+	$(".edit").click(function(){
+		$(this).hide();
+		$(".save_hide").show();
+		$(".cancel_hide").show();
+		$(".remove").show();
+		$("dl").find("img").attr("onclick","checkFn(this)");
+	});
+	//左侧列表
+	$(".role_name").each(function(index){
+		$(".role_name").eq(index).click(function(){
+			$("dl").find("img").attr("src","image/checked.png").removeClass("change_img");
+			if(index == 0){
+				$(".role_name").css("color","#333");
+				$(this).css("color","#0089f1");
+				$("dl").find("img").attr("src","image/checkbox.png").addClass("change_img");
+				$(".edit").hide();
+				$("dl").find("img").attr("onclick","close");
+			}else if(index == 1){
+                $(".role_name").css("color","#333");
+				$(this).css("color","#0089f1");
+				$(".edit").hide();
+				$(".look").find("img").attr("src","image/checkbox.png").addClass("change_img");
+				$("dt").find("img").attr("src","image/checkbox.png").addClass("change_img");
+				$("dl").find("img").attr("onclick","close");
+			}else if(index == 2){
+                $(".role_name").css("color","#333");
+				$(this).css("color","#0089f1");
+				$(".edit").hide();
+				$(".write").find("img").attr("src","image/checkbox.png").addClass("change_img");
+				$(".look").find("img").attr("src","image/checkbox.png").addClass("change_img");
+				$("dt").find("img").attr("src","image/checkbox.png").addClass("change_img");
+				$("dl").find("img").attr("onclick","close");
+			}
+			$("dl").find("img").each(function(index){
+				if($("dl").find("img").eq(index).hasClass("change_img")){
+					$(this).next().css("color","#333");
+				}else{
+					$(this).next().css("color","#999");
+				}
+			});
+		});
+	});
+	$(".save").click(function(){
+		$(".turn_box").show();
+	});
+	$(".cert_turn").click(function(){
+		$(".turn_box").hide();
+	});
+	$(".close").click(function(){
+		$(".turn_box").show();
+	});
+});
+function deleteFn(el){
+	$(el).parent().remove();
+	$(".save_hide").hide();
+	$(".cancel_hide").hide();
+    $(".edit").show();
+    $("dl").find("img").attr("onclick","close");
+    $("dl").find("img").attr("src","image/checked.png").removeClass("change_img");
+};
+function checkFn(el){
+	if($(el).hasClass("change_img")){
+		$(el).attr("src","image/checked.png").removeClass("change_img");
+	}else{
+		$(el).attr("src","image/checkbox.png").addClass("change_img");
+		if($(el).next().hasClass('write')){
+			$(el).parent().parent().find(".look").attr("src","image/checkbox.png").addClass("change_img");
+		}
+	}
+}
