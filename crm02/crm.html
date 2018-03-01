@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>crm情况总览</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="crm.css">
+	<script type="text/javascript" src="jquery-1.8.0.js"></script>
+	<script type="text/javascript" src="echarts.min.js"></script>
+    <script type="text/javascript" src="crm.js"></script>
+</head>
+<body>
+	<div class="header">
+    	<span>表头</span>
+    </div>
+	<div class="all">
+	    <div class="pandect">
+	    	<div class="top_nav clearbox">
+	    		<span class="nav_text">我的CRM情况总览</span>
+	    		<span class="time">2018-01-01 19:19:19</span>
+	    		<span class="time">上次登录时间：</span>
+	    		<span class="time site">北京市</span>
+	    		<span class="time">上次登录地点：</span>
+	    	</div>
+	    	<div class="top_kind">
+	    		<ul class="top_ul clearbox">
+	    			<li class="top_li right_li">
+	    				<img src="image/kehu.png">
+	    				<span>我的客户<a>10</a>个</span>
+	    			</li>
+	    			<li class="top_li right_li">
+	    				<img src="image/goutong.png">
+	    				<span>我的沟通记录<a>10</a>条</span>
+	    			</li>
+	    			<li class="top_li right_li">
+	    				<img src="image/qiye.png">
+	    				<span>我的所属企业<a>10</a>个</span>
+	    			</li>
+	    			<li class="top_li">
+	    				<img src="image/hetongfen.png">
+	    				<span>我的合同<a>10</a>份</span>
+	    			</li>
+	    		</ul>
+	    		<ul class="kind_ul clearbox">
+	    			<li class="top_li right_li">
+	    				<img src="image/chengjiaoe.png">
+	    				<span>我的总成交额<a>10</a>元</span>
+	    			</li>
+	    			<li class="top_li right_li">
+	    				<img src="image/yunxiezuo.png">
+	    				<span>我的云协作产品总成交额<a>10</a>元</span>
+	    			</li>
+	    			<li class="top_li">
+	    				<img src="image/xinpi.png">
+	    				<span>我的信披产品总成交额<a>10</a>元</span>
+	    			</li>
+	    		</ul>
+	    	</div>
+    	</div>
+    	<div class="customer">
+    		<div class="top_nav">
+	    		<span class="nav_text">我的客户</span>
+	    	</div>
+	    	<div class="top_kind clearbox">
+	    		<div class="add_box right_li">
+	    			<div class="data_tableA"></div>
+	    			<div class="title_box clearbox">
+	    				<span>我的新增客户周统计</span><img src="image/wenhao.png" class="wen_icon"><img src="image/01.png" class="allot_A">
+	    			</div>
+	    		</div>
+	    		<div class="login_box">
+	    			<div class="data_tableA"></div>
+	    			<div class="title_box">
+	    				<span>我的客户登录情况统计</span><img src="image/wenhao.png" class="wen_icon"><img src="image/02.png" class="allot_B">
+	    			</div>
+	    		</div>
+	    	</div>
+    	</div>
+    	<div class="state_box">
+    		<div class="top_nav">
+	    		<span class="nav_text">我的客户产品状态分布</span>
+	    	</div>
+	    	<div class="top_kind clearbox">
+	    		<div class="xin_state right_li">
+	    			<div class="data_tableA"></div>
+	    			<div class="title_box">
+	    				<span>信披状态分布</span><img src="image/wenhao.png" class="wen_icon"><img src="image/03.png" class="allot_C">
+	    			</div>
+	    		</div>
+	    		<div class="yun_state">
+	    			<div class="data_tableA"></div>
+	    			<div class="title_box">
+	    				<span>云协作状态分布</span><img src="image/wenhao.png" class="wen_icon"><img src="image/04.png" class="allot_D">
+	    			</div>
+	    		</div>
+	    		<div class="grade_state right_li">
+	    			<div class="data_tableA"></div>
+	    			<div class="title_box">
+	    				<span>客户级别分布</span><img src="image/wenhao.png" class="wen_icon"><img src="image/05.png" class="allot_E">
+	    			</div>
+	    		</div>
+	    		<div class="pay_state">
+	    			<div class="data_tableA"></div>
+	    			<div class="title_box">
+	    				<span>客户付费状态(不分产品，有过购买记录记为付费)</span><img src="image/wenhao.png" class="wen_icon"><img src="image/06.png" class="allot_F">
+	    			</div>
+	    		</div>
+	    	</div>
+    	</div>
+    	<div class="indent_box">
+    		<div class="top_nav">
+	    		<span class="nav_text">我的订单统计</span>
+	    	</div>
+	    	<div class="top_kind clearbox">
+	    		<div class="xin_indent right_li">
+	    			<div class="data_tableA"></div>
+	    			<div class="title_box">
+	    				<span>信披订单周统计</span><img src="image/wenhao.png" class="wen_icon"><img src="image/07.png" class="allot_G">
+	    			</div>
+	    		</div>
+	    		<div class="yun_indent">
+	    			<div class="data_tableA"></div>
+	    			<div class="title_box">
+	    				<span>云协作订单周统计</span><img src="image/wenhao.png" class="wen_icon"><img src="image/08.png" class="allot_H">
+	    			</div>
+	    		</div>
+	    		<div class="grade_indent right_li">
+	    			<div class="data_tableA"></div>
+	    			<div class="title_box">
+	    				<span>信披购买、续费订单周统计</span><img src="image/wenhao.png" class="wen_icon"><img src="image/09.png" class="allot_I">
+	    			</div>
+	    		</div>
+	    		<div class="pay_indent">
+	    			<div class="data_tableA"></div>
+	    			<div class="title_box">
+	    				<span>云协作购买、续费、扩容订单周统计</span><img src="image/wenhao.png" class="wen_icon"><img src="image/10.png" class="allot_J">
+	    			</div>
+	    		</div>
+	    	</div>
+    	</div>
+	</div>
+</body>
+</html>
