@@ -1,0 +1,196 @@
+.main{
+	background-color: #f5f6f6;
+}
+.right_cont{
+	padding: 0;
+}
+.input_mes{
+	height: 38px;
+	background-color: #fff;
+	line-height: 38px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	color: #666;
+	border-bottom: 1px solid #e7e7e7;
+	font-size: 14px;
+}
+.account{
+	color: #0089f1;
+}
+.record_man{
+    margin: 10px 0;
+}
+.record_title{
+	width: 16%;
+	float: left;
+	margin-right: 0.8%;
+	cursor: pointer;
+}
+.last_title{
+	margin:0;
+}
+.shadow_box{
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.13);
+}
+.add_role{
+    background: #f5f6f6;
+    padding-right: 10px;
+    box-sizing: border-box;
+    height: 717px;
+    padding-left: 0; 
+}
+.role_ul{
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	box-sizing: border-box;
+}
+.role_name{
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	color: #333;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+.regime{
+	background: #ebf6fc;
+	color: #0089f1;
+}
+.basic_right{
+	background: #fff;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.account_mes{
+	background-color: #fff;
+	width: 100%;
+}
+.account_title{
+    height: 50px;
+    padding-left:20px;
+    border-bottom: 1px solid #e7e7e7;
+    box-sizing: border-box;
+    line-height: 50px;
+}
+.title{
+	color: #0089f1;
+    font-weight: 500;
+    font-size: 18px;
+    float: left;
+    padding-left: 10px;
+    line-height: 18px;
+    border-left: 2px solid #0089f1;
+    margin-top: 16px;
+}
+.edit,.appro,.canc,.save{
+	float: right;
+	width: 80px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	margin: 7px 10px 7px 0;
+	color: #fff;
+	background-color: #0089f1;
+	border: 1px solid #0089f1;
+}
+.edit,.canc,.save{
+	display: none;
+}
+.canc{
+	color: #666;
+    background-color: #eee;
+    border: 1px solid #dcdcdc; 
+}
+.form-horizontal{
+	background-color: #fff;
+	padding-bottom: 30px;
+}
+.form-horizontal .from_box{
+	margin:15px 0 0;
+} 
+.form-horizontal .form_boxa{
+	margin-top: 20px;
+}
+label{
+	color: #666;
+	font-weight: 400;
+	min-width: 130px;
+	font-size: 14px;
+}
+.form-horizontal .from_conf{
+	margin:0;
+}
+.reset_img{
+	position: absolute;
+	right: 18px;
+	top: 10px;
+	cursor: pointer;
+	display: none;
+}
+.input_box{
+	position: relative;
+	padding-left: 0;
+}
+.input_box input{
+	padding-right: 20px;
+}
+.center_box{
+	height: 10px;
+	background: #f5f6f6;
+}
+.check_box{
+	padding-top: 7px;
+}
+.check_box input{
+	margin-right: 6px;
+}
+.check_box span{
+	display: inline-block;
+	margin-right: 20px;
+	font-size: 14px;
+}
+.input_date{
+	background: url(../commons/image/date.png) no-repeat 96%;
+	cursor: pointer;
+	padding-right: 5px;
+}
+textarea{
+	resize: none;
+	display: inline-block;
+	width: 100%;
+	height: 100px;
+	padding:8px;
+	border:1px solid #e7e7e7;
+	background: #fff;
+}
+.forever{
+	position: absolute;
+	width: 60px;
+    right: 0px;
+    top: -24px;
+}
+.del_title .hint_img{
+	float: left;
+	margin-right: 6px;
+}
+.del_title .close_img{
+	float: right;
+}
+.del_cont .del_text{
+	padding:0 20px;
+	font-size: 18px;
+	margin:40px 0;
+	height: 50px;
+}
+.del_cont .sure_btn{
+	display: block;
+	margin:0 auto;
+}
+.del_cont .del_text{
+	margin: 20px 0;
+}

@@ -1,0 +1,281 @@
+.main{
+	background: #f5f6f6;
+}
+.right_cont{
+	padding: 0;
+	background-color: #f5f6f6;
+}
+.input_mes{
+	height: 38px;
+	background-color: #fff;
+	line-height: 38px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	color: #666;
+	border-bottom: 1px solid #e7e7e7;
+	font-size: 14px;
+}
+.account{
+	color: #0089f1;
+}
+.account_mes{
+	background-color: #fff;
+	margin-top: 10px;
+	width: 100%;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+}
+.account_title{
+    height: 54px;
+    padding-left:20px;
+    border-bottom: 1px solid #e7e7e7;
+    box-sizing: border-box;
+    line-height: 50px;
+}
+.acco_title{
+	border-bottom: none;
+}
+.title{
+	color: #0089f1;
+    font-weight: 500;
+    font-size: 18px;
+    float: left;
+    padding-left: 10px;
+    line-height: 18px;
+    border-left: 2px solid #0089f1;
+    margin-top: 18px;
+    margin-right: 35px;
+}
+.new_add{
+	float: right;
+	width: 100px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	margin: 9px 10px 7px 0;
+	color: #fff;
+	background-color: #0089f1;
+	border: 1px solid #0089f1;
+}
+.from_cont{
+	margin-top: 20px;
+}
+.from_con{
+	padding:10px 10px 10px 20px;
+	box-sizing: border-box;
+}
+.check_box{
+	padding-left: 30px;
+	box-sizing: border-box;
+}
+.check_box input{
+	float: left;
+	margin-right: 20px;
+}
+.check_box p{
+	float: left;
+	width: 96%;
+	line-height: 20px;
+	padding-top: 2px;
+}
+.from_expla{
+	display: none;
+}
+.table{
+	margin: 0;
+	border: 1px solid #e7e7e7;
+}
+.thead{
+	background-color:#ecedef; 
+}
+thead>tr>th{
+	border-right:1px solid #fff;
+}
+.table>thead>tr,.table>tbody>tr{
+	height: 44px;
+}
+.table>thead>tr>th{
+	color: #666;
+	border-bottom: none;
+}
+.table>thead>tr>th,.table>tbody>tr>td{
+	vertical-align: middle;
+	padding:0 0 0  20px;
+	border-right: 1px solid #e7e7e7;
+	text-align: center;
+}
+.table>.thead>tr{
+	background: #f6f4f5;
+}
+.no_cont{
+	width: 100%;
+	height: 80px;
+	line-height: 78px;
+	text-align: center;
+	border:1px solid #e7e7e7;
+	border-top: none;
+	color: #999;
+}
+.botm_nav{
+	margin-top: 30px;
+	height: 60px;
+	text-align: center;
+	vertical-align: top;
+}
+.navigation{
+	display: inline-block;
+}
+.pagination{
+	margin: 0;
+}
+.skip_num{
+	margin:0 20px;
+	height: 42px;
+	line-height: 42px;
+	font-size: 16px;
+	position: relative;
+	top: -18px;
+}
+.jump_num{
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	border: 1px solid #efefef;
+	box-sizing: border-box;
+	vertical-align: middle;
+	margin:0 2px;
+	text-indent: 5px;
+}
+.pdf_img{
+	width: 30px;
+}
+.file_name{
+	color: #0089f1;
+	cursor: pointer;
+}
+.form-horizontal .from_box{
+	margin: 0;
+} 
+.form-horizontal .from_boxa{
+	padding-top: 0;
+}
+label{
+	color: #666;
+	font-weight: 400;
+	font-size: 14px;
+	min-width: 120px;
+}
+.input_box{
+	padding-left: 0;
+}
+textarea{
+	width: 100%;
+	height: 80px;
+	display: block;
+	line-height: 18px;
+	border:1px solid #ccc;
+	padding: 5px;
+	box-sizing: border-box;
+	resize: none;
+}
+.earn_box{
+	padding-top: 7px;
+}
+.earn_box input{
+	margin-right: 6px;
+}
+.earn_box span{
+	display: inline-block;
+	margin-right: 30px;
+}
+.upload_box{
+	height: 70px;
+	cursor: pointer;
+	padding-top: 27px;
+	box-sizing: border-box;
+}
+.btn_file>img{
+	display: inline-block;
+	margin-right: 10px;
+}
+.btn_file>span{
+	color:#0089f1;
+}
+.upload_size{
+	color: #0089f1;
+	font-size: 12px;
+}
+.new_box{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top:0;
+	background: rgba(0,0,0,0.5);
+	z-index: 200;
+	display: none;
+}
+.new_con{
+	width: 500px;
+	height: 380px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -190px;
+	margin-left: -250px;
+	background: #fff;
+	border-radius: 4px;
+}
+.new_title{
+	width: 100%;
+	height: 46px;
+	padding:0 15px;
+	box-sizing: border-box;
+	background: #edf7fd;
+}
+.new_title span{
+	float: left;
+	font-size: 18px;
+	color: #666;
+	line-height: 46px;
+}
+.new_title img{
+	float: right;
+	margin-top: 16px;
+	cursor: pointer;
+	width: 14px;
+}
+.can_new,.sure_new{
+	display: inline-block;
+	width: 108px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 16px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	margin-top: 20px;
+	border-radius: 4px;
+}
+.can_new{
+	color: #666;
+	background-color: #eee;
+	border: 1px solid #dcdcdc;
+    margin-right: 40px;
+    margin-left: 120px;
+}
+.sure_new{
+	color: #fff;
+	background-color: #0089f1;
+	margin-right: 10px;
+	border: 1px solid #0089f1;
+}
+.form-horizontal .honest{
+	margin-top: 20px;
+}
+.no_check{
+	display: none;
+}

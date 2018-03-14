@@ -1,0 +1,244 @@
+.main{
+	background-color: #f5f6f6;
+}
+.basic_right{
+	padding: 0px;
+	box-sizing: border-box;
+}
+.account_mes{
+	width: 100%;
+}
+.account_title{
+    height: 50px;
+    padding-left:20px;
+    border-bottom: 1px solid #e7e7e7;
+    box-sizing: border-box;
+    line-height: 50px;
+    background: #fff;
+}
+.title{
+	color: #0089f1;
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 10px;
+    line-height: 18px;
+    border-left: 2px solid #0089f1;
+    margin-top: 16px;
+}
+.appro,.add_up{
+	float: right;
+	width: 80px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	margin: 7px 10px 7px 0;
+	color: #fff;
+	background-color: #0089f1;
+	border: 1px solid #0089f1;
+}
+.input_box{
+	padding-left: 0;
+	position: relative;
+}
+.reset_img{
+	position: absolute;
+	right: 22px;
+	top: 10px;
+	cursor: pointer;
+	display: none;
+}
+.acco_title{
+	border-bottom: none;
+	background: #fff;
+	margin-top: 10px;
+    padding-bottom: 30px;
+}
+.add_title{
+	padding-left: 30px;
+	border-left:none;
+	color: #333;
+	margin-top: 15px;
+	display: inline-block;
+}
+.acco_tit{
+	margin-top: 0;
+}
+.from_cona{
+	padding:0px 10px 10px 20px;
+	box-sizing: border-box;
+}
+.from_conb{
+	padding-top: 10px;
+}
+.table{
+	margin: 0;
+	border: 1px solid #e7e7e7;
+}
+.thead{
+	background-color:#ecedef; 
+}
+thead>tr>th{
+	border-right:1px solid #fff;
+}
+.table>thead>tr,.table>tbody>tr{
+	height: 44px;
+}
+.table>thead>tr>th{
+	color: #666;
+	border-bottom: none;
+}
+.table>thead>tr>th,.table>tbody>tr>td{
+	vertical-align: middle;
+	border-right: 1px solid #e7e7e7;
+	text-align: center;
+	color: #333;
+	font-size: 14px;
+}
+.table>thead>tr>.cond_td,.table>tbody>tr>.cond_td{
+	text-align: left;
+}
+.table>.thead>tr{
+	background: #f6f4f5;
+}
+tr .radio_cont{
+	display: inline-block;
+	margin-right: 6px;
+}
+.form-horizontal{
+	background-color: #fff;
+	padding-bottom: 20px;
+}
+.form-horizontal .from_box{
+	margin:15px 0 0;
+} 
+label{
+	color: #666;
+	font-weight: 400;
+	min-width: 150px;
+	font-size: 14px;
+}
+.reset_img{
+	position: absolute;
+	right: 18px;
+	top: 10px;
+	cursor: pointer;
+	display: none;
+}
+.input_box input{
+	padding-right: 20px;
+}
+.input_date{
+	background: url(../commons/image/date.png) no-repeat 96%;
+	cursor: pointer;
+}
+textarea{
+	display: inline-block;
+	height: 100px;
+	resize: none;
+	padding:8px;
+	font-size: 14px;
+	line-height: 16px;
+	border: 1px solid #e7e7e7;
+	box-sizing: border-box;
+	width: 100%;
+}
+.form-horizontal .from_conf{
+	margin:0;
+}
+.upload_box {
+    height: 60px;
+    cursor: pointer;
+    padding-top: 17px;
+    box-sizing: border-box;
+}
+.upload_size{
+	color: #0089f1;
+	font-size: 12px;
+}
+.suggest_box{
+	padding:0;
+}
+.look,.edit,.delete{
+	color: #0089f1;
+	display: inline-block;
+	cursor: pointer;
+	margin-right: 15px;
+}
+.delete{
+	color: #ec3b3b;
+}
+.rate_box{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top:0;
+	background: rgba(0,0,0,0.5);
+	z-index: 100;
+	display: none;
+}
+.rate_con{
+	width: 800px;
+	height: 570px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -285px;
+	margin-left: -400px;
+	background: #fff;
+	border-radius: 4px;
+}
+.rate_title{
+	width: 100%;
+	height: 46px;
+	padding:0 15px;
+	box-sizing: border-box;
+	background: #edf7fd;
+}
+.rate_title span{
+	float: left;
+	font-size: 18px;
+	color: #666;
+	line-height: 46px;
+}
+.rate_title img{
+	float: right;
+	margin-top: 16px;
+	cursor: pointer;
+	width: 14px;
+}
+.can_rate,.sure_rate{
+	display: inline-block;
+	width: 108px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 16px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	border-radius: 4px;
+}
+.can_rate{
+	color: #666;
+	background-color: #eee;
+	border: 1px solid #dcdcdc;
+    margin-right: 40px;
+    margin-left: 270px;
+}
+.sure_rate{
+	color: #fff;
+	background-color: #0089f1;
+	margin-right: 10px;
+	border: 1px solid #0089f1;
+}
+.btn_file span{
+	color: #0089f1;
+	font-size: 14px;
+}
+.rate_con label{
+	min-width: 130px;
+	padding-left: 0;
+}

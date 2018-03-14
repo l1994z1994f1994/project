@@ -1,0 +1,163 @@
+.main{
+	background-color: #f5f6f6;
+}
+.basic_right{
+	background: #fff;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.account_mes{
+	background-color: #fff;
+	width: 100%;
+}
+.account_title{
+    height: 50px;
+    padding-left:20px;
+    border-bottom: 1px solid #e7e7e7;
+    box-sizing: border-box;
+    line-height: 50px;
+}
+.title{
+	color: #0089f1;
+    font-weight: 500;
+    font-size: 18px;
+    float: left;
+    padding-left: 10px;
+    line-height: 18px;
+    border-left: 2px solid #0089f1;
+    margin-top: 18px;
+}
+.edit,.appro,.canc,.save{
+	float: right;
+	width: 80px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	margin: 9px 10px 7px 0;
+	color: #fff;
+	background-color: #0089f1;
+	border: 1px solid #0089f1;
+}
+.edit,.canc,.save{
+	display: none;
+}
+.canc{
+	color: #666;
+    background-color: #eee;
+    border: 1px solid #dcdcdc; 
+}
+.from_cona{
+	background: #f5f6f6;
+	box-sizing: border-box;
+	margin:0;
+}
+.catalog{
+	padding-left: 20px;
+	float: left;
+	width: 20%;
+	border-right: 1px solid #e7e7e7;
+	box-sizing: border-box;
+	height: 670px;
+	background: #fff;
+	margin:0;
+	position: relative;
+}
+.take_img{
+	position: absolute;
+	right: 0;
+	top: 300px;
+	cursor: pointer;
+}
+.catalog_box{
+	float: left;
+	width: 80%;
+	background: #fff;
+	position: relative;
+}
+.let_img{
+	position: absolute;
+	left: 0px;
+	top: 300px;
+	cursor: pointer;
+	display: none;
+}
+.cata_log{
+	font-weight: 600;
+	line-height: 60px;
+	margin:0;
+	padding-top: 10px;
+}
+.cata_log img{
+	margin-right: 10px;
+    vertical-align: text-top;
+}
+.catalog>li{
+	line-height: 30px;
+}
+.warmth_box{
+	height:100px;
+	background: url(image/hint-warmth.png) no-repeat center center/100% 100%;
+	padding-top:40px;
+	margin: 20px 20px 0 20px;
+}
+.catalog_box p{
+	margin:0;
+	line-height: 32px;
+}
+.warmth_box p{
+	color: #999;
+	line-height: 26px;
+	padding:0 0 0 10px;
+}
+.fund_cata{
+	padding:0 20px;
+}
+.fund_cata p{
+	color: #333;
+}
+.fund_cata input{
+	margin-right: 6px;
+}
+.fund_cata span{
+	display: inline-block;
+	margin-right: 30px;
+}
+.catalog_box .cata_title{
+	font-weight: 600;
+	line-height: 50px;
+	color: #333;
+}
+.catalog_box .cata_name{
+    overflow:hidden;
+    white-space:nowrap;
+	text-overflow:ellipsis;
+	color: #333;
+}
+textarea{
+	display: inline-block;
+	width: 100%;
+	height: 100px;
+	border:1px solid #e7e7e7;
+	resize: none;
+	padding:5px;
+	background: #fff;
+	margin-bottom: 20px;
+}
+.appor_grade label{
+	font-size: 14px;
+	min-width: 150px;
+}
+.input_box{
+	padding-left: 0;
+}
+.segmentation{
+	height: 10px;
+	background: #f5f6f6;
+}
+.explain{
+	display: none;
+}
+

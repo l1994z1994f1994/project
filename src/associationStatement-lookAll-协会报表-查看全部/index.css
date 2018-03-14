@@ -1,0 +1,159 @@
+.right_cont{
+	padding: 0;
+	background-color: #f5f6f6;
+}
+.input_mes{
+	height: 38px;
+	background-color: #fff;
+	line-height: 38px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	color: #666;
+	border-bottom: 1px solid #e7e7e7;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.account{
+	color: #0089f1;
+}
+.account_title {
+    width: 100%;
+    height: 54px;
+    background: #fff;
+    padding: 6px 0 0 20px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.mes_title{
+	width: 100%;
+	height: 48px;
+	margin:0;
+}
+.mes_title li{
+	width: 120px;
+	height: 48px;
+	float: left;
+	position: relative;
+}
+.await_appro,.my_appro,.my_apply,.my_abolish{
+	display: inline-block;
+	width: 120px;
+	height: 48px;
+	line-height: 48px;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #333;
+    cursor: pointer;
+}
+.active{
+	border: 1px solid #e7e7e7;
+	border-radius: 3px 3px 0 0;
+	border-bottom: none;
+	color: #0089f1;
+	background: #edf8fe;
+}
+.table{
+	margin: 0;
+	border-bottom: 1px solid #ddd;
+}
+.thead{
+	background-color:#ecedef; 
+}
+thead>tr>th{
+	border-right:1px solid #fff;
+}
+.table>thead>tr,.table>tbody>tr{
+	height: 44px;
+}
+.table>tbody>tr:hover{
+	background: #edf8fe;
+}
+.table>thead>tr>th{
+	color: #666;
+	border-bottom: none;
+}
+.table>thead>tr>th,.table>tbody>tr>td{
+	vertical-align: middle;
+	padding:0 0 0  20px;
+}
+.botm_nav{
+	margin-top: 20px;
+	height: 100px;
+}
+.func_btn{
+	float: left;
+	width: 80px;
+	height: 42px;
+	line-height: 42px;
+	font-size: 16px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	background-color: #0089f1;
+	margin-left: 20px;
+	border: 1px solid #0089f1;
+	padding: 0;
+}
+.navigation{
+	float: right;
+}
+.pagination{
+	margin: 0;
+}
+.skip_num{
+	float: right;
+	margin:0 20px;
+	height: 42px;
+	line-height: 42px;
+	font-size: 16px;
+}
+.jump_num{
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	border: 1px solid #efefef;
+	box-sizing: border-box;
+	vertical-align: middle;
+	margin:0 2px;
+	text-indent: 5px;
+}
+.preview,.download{
+	color: #0089f1;
+	display: inline-block;
+	height: 44px;
+	line-height: 44px;
+	cursor: pointer;
+}
+.preview{
+	margin-right: 20px;
+}
+.pagination .page_num{
+	background: #0089f1;
+	color: #fff;
+}
+.from_contA{
+	padding:10px 0 0;
+	background: #fff;
+}
+.monthly{
+	float: left;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	margin: 0px 10px 7px 10px;
+	color: #fff;
+	background-color: #0089f1;
+	border: 1px solid #0089f1;
+	border-radius: 4px;
+}
+.confirm{
+	float: left;
+	color: #ec3b3b;
+	font-size: 14px;
+	line-height: 44px;
+}

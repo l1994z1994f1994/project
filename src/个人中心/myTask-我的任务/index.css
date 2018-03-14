@@ -1,0 +1,394 @@
+.right_cont{
+	padding: 0;
+	background-color: #f5f6f6;
+}
+.input_mes{
+	height: 38px;
+	background-color: #fff;
+	line-height: 38px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	color: #666;
+	border-bottom: 1px solid #e7e7e7;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.account{
+	color: #0089f1;
+}
+.account_title{
+	width: 100%;
+	height: 54px;
+	background: #fff;
+	padding: 6px 0 0 20px;
+	border-bottom: 1px solid #e7e7e7;
+}
+.mes_title{
+	width: 100%;
+	height: 48px;
+	margin:0;
+}
+.mes_title{
+	width: 100%;
+	height: 48px;
+	margin:0;
+}
+.mes_title li{
+	width: 120px;
+	height: 48px;
+	float: left;
+	position: relative;
+}
+.show_num{
+	position: absolute;
+	right: 6px;
+	top: 5px;
+	width: 30px;
+	height: 16px;
+	border-radius: 5px;
+	background: #ec3b3b;
+	color: #fff;
+	font-size: 12px;
+	line-height: 16px;
+	text-align: center;
+}
+.mes_title .upload_li{
+	float: right;
+	width: 100px;
+}
+.no_read,.all_read{
+	display: inline-block;
+	width: 120px;
+	height: 48px;
+	line-height: 48px;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #333;
+    cursor: pointer;
+}
+.active{
+	border: 1px solid #e7e7e7;
+	border-radius: 3px 3px 0 0;
+	border-bottom: none;
+	color: #0089f1;
+	background: #edf8fe;
+}
+.mes_upload{
+	float: right;
+	width: 80px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	margin: 4px 10px 0 0;
+	color: #fff;
+	background-color: #0089f1;
+	border: 1px solid #0089f1;
+}
+
+
+.task_hint,.hint_task{
+	width: 100%;
+	height: 120px;
+	border-bottom: 1px solid #e7e7e7;
+	background: #fff;
+	padding: 10px 0 0;
+	box-sizing: border-box;
+}
+.from_contB{
+	display: none;
+}
+.task_hint:hover{
+	background: #f7fbff;
+}
+.task_img{
+	float: left;
+	margin:30px 35px 0;
+}
+.task_ul{
+	float: left;
+}
+
+
+.task_first{
+	box-sizing: border-box;
+	line-height: 30px;
+}
+
+
+.blue_box{
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: #0089f1;
+	margin:0 5px;
+	display: inline-block;
+}
+
+
+.task_first span{
+	font-size: 16px;
+	font-weight: 600;
+	color: #333;
+	display: inline-block;
+}
+.task_second{
+    font-size: 14px;
+    color: #666;
+    line-height: 20px;
+}
+.task_name{
+	display: inline-block;
+	margin-right: 20px;
+}
+.task_thirdly,.task_fourthly{
+	color: #999;
+	line-height: 24px;
+	font-size: 14px;
+}
+.task_thirdly{
+	line-height: 20px;
+}
+.task_btn{
+	float: right;
+	width: 250px;
+    height: 100%;
+}
+.finish,.cancel{
+    float: right;
+	width: 100px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	margin: 30px 10px;
+}
+.cancel{
+	color: #fff;
+	background-color: #0089f1;
+	border: 1px solid #0089f1;
+}
+.finish,.can_fin{
+	color: #666;
+	background-color: #eee;
+	border: 1px solid #dcdcdc;
+}
+.sign_box{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top:0;
+	background: rgba(0,0,0,0.5);
+	z-index: 100;
+	display: none;
+}
+.sign_con{
+	width: 486px;
+	height: 253px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -126px;
+	margin-left: -243px;
+	background: #fff;
+	border-radius: 4px;
+}
+.sign_title{
+	width: 100%;
+	height: 56px;
+	padding:0 30px 0 30px;
+	box-sizing: border-box;
+	background: #edf7fd;
+}
+.sign_title span{
+	float: left;
+	font-size: 24px;
+	color: #666;
+	line-height: 24px;
+	margin-top: 16px;
+}
+.sign_x{
+	float: right;
+	margin-top: 18px;
+	cursor: pointer;
+}
+.sign_cont{
+    width: 100%;
+    height: 197px;
+}
+.sign_cont p{
+	font-size: #333;
+	font-size: 28px;
+	text-align: center;
+	line-height: 28px;
+	height: 28px;
+	width: 100%;
+	margin:45px 0 44px;
+}
+.cert_sign,.des_sign{
+	display: inline-block;
+	width: 108px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	background-color: #0089f1;
+    margin:0 auto;
+}
+.des_sign{
+    color: #666;
+    background-color: #eee;
+    border: 1px solid #dcdcdc;
+    margin-right: 40px;
+    margin-left: 115px;
+}
+.task_box{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top:0;
+	background: rgba(0,0,0,0.5);
+	z-index: 100;
+	display: none;
+}
+.task_con{
+	width: 500px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -200px;
+	margin-left: -250px;
+	background: #fff;
+	border-radius: 4px;
+}
+.task_title{
+	width: 100%;
+	height: 56px;
+	padding:0 30px;
+	box-sizing: border-box;
+	background: #edf7fd;
+}
+.task_title span{
+	float: left;
+	font-size: 24px;
+	color: #666;
+	line-height: 24px;
+	margin-top: 16px;
+}
+.task_title img{
+	float: right;
+	margin-top: 18px;
+	cursor: pointer;
+}
+.task_cont{
+    width: 100%;
+    height: 344px;
+}
+.dess_task,.certt_task{
+	display: inline-block;
+	width: 108px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	margin-top: 20px;
+}
+.dess_task{
+	color: #666;
+	background-color: #eee;
+	border: 1px solid #dcdcdc;
+    margin-right: 40px;
+    margin-left: 115px;
+}
+.certt_task{
+	color: #fff;
+	background-color: #0089f1;
+	margin-right: 10px;
+	border: 1px solid #0089f1;
+}
+textarea{
+	resize: none;
+}
+.form_boxa{
+	margin-top: 20px;
+}
+label em{
+	color:#ec3b3b;
+}
+#start_date{
+    background: url(image/rili02.png) no-repeat 96%;
+    cursor: pointer;
+}
+
+
+.prev_box{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top:0;
+	background: #f2f4f6;
+	z-index: 100;
+	display: none;
+}
+.prev_cont{
+	width: 1000px;
+	margin:80px auto 0;
+	background: #fff;
+	border-radius: 4px;
+	overflow: auto;
+	padding-top: 60px;
+	box-sizing: border-box;
+}
+.prev_top{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background: #f6f8fb;
+	height: 54px;
+	box-shadow: 0 2px 2px #eaeaeb;
+}
+.file_img{
+	margin-left: 20px;
+	width: 30px;
+}
+.prev_name{
+	line-height: 54px;
+	color: #333;
+    font-size: 14px;
+}
+.down_load{
+	float: right;
+    width: 60px;
+    height: 30px;
+    line-height: 28px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    margin: 12px 35px 0 0;
+    color: #fff;
+    background-color: #0089f1;
+    border: 1px solid #0089f1;
+    border-radius: 5px;
+}
+.close_x{
+	float: right;
+	cursor: pointer;
+	width: 16px;
+	margin:19px 10px 0 0;
+}

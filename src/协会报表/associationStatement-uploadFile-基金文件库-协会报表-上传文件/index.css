@@ -1,0 +1,167 @@
+.record_man{
+	height: 90px;
+	background: #f5f6f6;
+	margin:0;
+}
+.account_mes{
+	width: 100%;
+}
+.account_title{
+    height: 50px;
+    padding-left:20px;
+    border-bottom: 1px solid #e7e7e7;
+    box-sizing: border-box;
+    line-height: 50px;
+}
+.title{
+	color: #0089f1;
+    font-weight: 500;
+    font-size: 18px;
+    float: left;
+    padding-left: 10px;
+    line-height: 18px;
+    border-left: 2px solid #0089f1;
+    margin-top: 16px;
+}
+.confirm{
+	float: left;
+	color: #ec3b3b;
+	font-size: 12px;
+	line-height: 54px;
+	margin-left: 10px;
+}
+.edit{
+	float: right;
+	width: 80px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	margin: 7px 10px 7px 0;
+	color: #fff;
+	background-color: #0089f1;
+	border: 1px solid #0089f1;
+}
+.cen_box{
+	margin:0;
+	padding:0;
+	height: 10px;
+	background: #f5f6f6;
+}
+.form-horizontal{
+	background-color: #fff;
+}
+.form-horizontal .from_box{
+	margin:20px 0 0;
+} 
+.form-horizontal .form_boxa{
+	margin-top: 24px;
+}
+label{
+	color: #666;
+	font-weight: 400;
+	min-width: 120px;
+	font-size: 14px;
+}
+.contract{
+	font-size: 18px;
+	font-weight: 500;
+	padding-right: 30px;
+}
+.origin{
+	color: #999;
+}
+.upload_size{
+	color:#0089f1;
+}
+.upload_box{
+	height: 70px;
+	cursor: pointer;
+	padding-top: 17px;
+	box-sizing: border-box;
+}
+.upload_box>img{
+	display: inline-block;
+	margin-right: 10px;
+}
+.btn_file{
+    display: inline-block;
+}
+.file_box{
+	display: inline-block;
+	position: relative;
+}
+.file_box>.res_img{
+	margin-right: 10px;
+}
+.res_img{
+	position: absolute;
+}
+.upload_box span{
+	color:#0089f1;
+}
+.form-horizontal .from_conf{
+	margin:0;
+}
+.from_con{
+	margin-top: 10px;
+	color: #999;
+}
+.form-horizontal .from_boxa{
+	padding-top: 30px;
+	margin:0;
+}
+.reset_img{
+	position: absolute;
+	right: 18px;
+	top: 10px;
+	cursor: pointer;
+	display: none;
+}
+.input_box{
+	position: relative;
+	padding-left: 0;
+}
+.input_box input{
+	padding-right: 20px;
+}
+.cont_name{
+	display: inline-block;
+    border: 1px solid #e7e7e7;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 10px;
+}
+.cont_pdf{
+	padding-top: 7px;
+}
+.input_date{
+	background: url(../commons/image/date.png) no-repeat 96%;
+	cursor: pointer;
+	padding-right: 5px;
+}
+.file_img{
+	width: 30px;
+}
+.file_name{
+	position: relative;
+	display: inline-block;
+	margin-right: 20px;
+}
+.segmentation{
+	height: 10px;
+	background: #f5f6f6;
+}
+#sel1,#sel2,#sel3{
+	width: 96%;
+	display: inline-block;
+}
+#sel2,#sel3{
+	width: 47%;
+	display: none;
+}
+
+

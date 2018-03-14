@@ -1,0 +1,73 @@
+.main{
+	background-color: #f5f6f6;
+}
+.basic_right{
+	background: #fff;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.account_mes{
+	background-color: #fff;
+	margin-top: 10px;
+	width: 100%;
+	height: 710px;
+}
+.input_box{
+	position: relative;
+	padding-left: 0;
+}
+.account_title{
+    height: 54px;
+    padding-left:20px;
+    border-bottom: 1px solid #e7e7e7;
+    box-sizing: border-box;
+    line-height: 50px;
+}
+.title{
+	color: #0089f1;
+    font-weight: 500;
+    font-size: 18px;
+    float: left;
+    padding-left: 10px;
+    line-height: 18px;
+    border-left: 2px solid #0089f1;
+    margin-top: 18px;
+}
+.echart{
+	width: 100%;
+	height: 312px;
+	padding-left: 30px;
+}
+.data_table{
+	height: 100%;
+}
+.date_box{
+	width: 100%;
+	height: 630px;
+	margin-top: 10px;
+}
+.form-horizontal{
+	position: relative;
+	top: -25px;
+}
+.form-horizontal .from_box{
+	padding:20px 0;
+	margin: 0;
+} 
+.form-horizontal .from_boxa{
+	padding-top: 0;
+}
+label{
+	color: #666;
+	font-weight: 400;
+	font-size: 16px;
+	min-width: 150px;
+}
+.reset_img{
+	position: absolute;
+	right: 22px;
+	top: 10px;
+	cursor: pointer;
+	display: none;
+}
+

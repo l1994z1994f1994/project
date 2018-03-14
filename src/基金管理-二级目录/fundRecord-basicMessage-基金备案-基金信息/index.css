@@ -1,0 +1,16 @@
+.main{
+	background-color: #f5f6f6;
+}
+.shadow_box,.shad_box{
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.13);
+}
+.regime{
+	background: #ebf6fc;
+	color: #0089f1;
+}
+.role_li{
+	cursor: pointer;
+}
+.fund_two,.fund_three,.fund_four,.fund_five{
+	display: none;
+}

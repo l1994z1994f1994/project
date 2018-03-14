@@ -1,0 +1,92 @@
+.main{
+	background-color: #f5f6f6;
+}
+.basic_right{
+	background: #fff;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.account_mes{
+	background-color: #fff;
+	width: 100%;
+}
+.account_title{
+    height: 54px;
+    padding-left:20px;
+    border-bottom: 1px solid #e7e7e7;
+    box-sizing: border-box;
+    line-height: 50px;
+}
+.title{
+	color: #0089f1;
+    font-weight: 500;
+    font-size: 18px;
+    float: left;
+    padding-left: 10px;
+    line-height: 18px;
+    border-left: 2px solid #0089f1;
+    margin-top: 18px;
+}
+.edit,.appro,.canc,.save{
+	float: right;
+	width: 80px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	margin: 9px 10px 7px 0;
+	color: #fff;
+	background-color: #0089f1;
+	border: 1px solid #0089f1;
+}
+.edit,.canc,.save{
+	display: none;
+}
+.canc{
+	color: #666;
+    background-color: #eee;
+    border: 1px solid #dcdcdc; 
+}
+.form-horizontal{
+	background-color: #fff;
+	padding-bottom: 30px;
+}
+.form-horizontal .from_box{
+	margin:0 0 15px;
+} 
+span{
+	display: inline-block;
+	margin-right: 10px;
+	color: #333;
+	font-size: 14px;
+}
+.from_cona{
+	padding:10px 10px 10px 20px;
+	box-sizing: border-box;
+}
+.input_date{
+	background: url(../commons/image/date.png) no-repeat 96%;
+	cursor: pointer;
+	padding-right: 5px;
+	width: 40%;
+}
+.form-horizontal .add_date{
+	color: #0089f1;
+	display: none;
+	cursor: pointer;
+}
+.appor_grade label{
+	font-size: 14px;
+	min-width: 150px;
+}
+.segmentation{
+	height: 10px;
+	background: #f5f6f6;
+}
+.input_box{
+	padding-left: 0;
+}
+
+

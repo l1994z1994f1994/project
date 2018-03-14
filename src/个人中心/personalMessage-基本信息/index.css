@@ -1,0 +1,190 @@
+.right_cont{
+	padding: 0;
+	background-color: #f5f6f6;
+}
+.input_mes{
+	height: 38px;
+	background-color: #fff;
+	line-height: 38px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	color: #666;
+	border-bottom: 1px solid #e7e7e7;
+	font-size: 14px;
+}
+.person_mes{
+	height: 100px;
+	background: #fff;
+	margin: 10px 0;
+}
+.self_img{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	float: left;
+	margin:15px 30px;
+	background: url(image/touxiang.png) no-repeat center/100%;
+	position: relative;
+	border:1px solid #ccc;
+}
+.self_img div{
+	width: 68px;
+	height: 68px;
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+	background: url(image/photo01.png) no-repeat center/100%;
+	display: none;
+	cursor: pointer;
+}
+.make_name{
+	float:left;
+	width: 350px;
+	height: 90px;
+	margin-top: 10px;
+}
+.make_name>li{
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+}
+.name_user{
+	font-size: 16px;
+	line-height: 45px;
+	color:#333;
+	display: inline-block;
+	height: 45px;
+	margin-right: 10px;
+	font-weight: 600;
+}
+.user_job{
+	color: #0089f1;
+    height: 45px;
+    line-height: 45px;
+    display: inline-block;
+}
+.user_job>img{
+	vertical-align: text-top;
+}
+.comp_num{
+	font-size: 16px;
+	display: inline-block;
+	padding:0 10px;
+	line-height: 16px;
+}
+.comp_num:nth-child(1){
+   padding-left: 0;
+   border-right: 1px solid #333;
+}
+.account{
+	color: #0089f1;
+}
+.account_mes{
+	background-color: #fff;
+	margin-top: 10px;
+	width: 100%;
+}
+.account_title{
+    height: 54px;
+    padding-left:20px;
+    border-bottom: 1px solid #e7e7e7;
+    box-sizing: border-box;
+    line-height: 50px;
+}
+.title{
+	color: #0089f1;
+    font-weight: 500;
+    font-size: 18px;
+    float: left;
+    padding-left: 10px;
+    line-height: 18px;
+    border-left: 2px solid #0089f1;
+    margin-top: 18px;
+}
+.edit,.cancel{
+	float: right;
+	width: 80px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	margin: 9px 10px 7px 0;
+}
+.cancel{
+	color: #666;
+	background-color: #eee;
+	border: 1px solid #e7e7e7;
+	display: none;
+}
+.edit{
+	color: #fff;
+	background-color: #0089f1;
+	margin-right: 10px;
+	border: 1px solid #0089f1;
+}
+.from_cont{
+	background-color: #fff;
+}
+.form-horizontal{
+	background-color: #fff;
+}
+.form-horizontal .from_box{
+	margin:20px 0 0;
+} 
+.form-horizontal .form_boxa{
+	margin-top: 24px;
+}
+label{
+	color: #666;
+	font-weight: 400;
+	min-width: 150px;
+	font-size: 14px;
+}
+.control-label em{
+	color: #e22;
+	display: inline-block;
+}
+.upload_size{
+	color:#0089f1;
+	font-size: 12px;
+}
+.upload_box{
+	height: 60px;
+	cursor: pointer;
+	padding-top: 17px;
+	box-sizing: border-box;
+}
+.upload_box>img{
+	display: inline-block;
+	margin-right: 10px;
+}
+.upload_box>span{
+	color:#0089f1;
+}
+.form-horizontal .from_conf{
+	margin:0;
+	display: none;
+}
+.reset_img{
+	position: absolute;
+	right: 18px;
+	top: 10px;
+	cursor: pointer;
+	display: none;
+}
+.input_box{
+	position: relative;
+	padding-left: 0;
+}
+.input_box input{
+	padding-right: 20px;
+}
+.immed_set{
+	color: #0089f1;
+	display: inline-block;
+	padding-top: 7px;
+	cursor: pointer;
+	font-size: 14px;
+}
